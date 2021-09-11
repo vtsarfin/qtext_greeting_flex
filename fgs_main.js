@@ -4,7 +4,9 @@ https://github.com/jobisoft/quicktext/wiki/List-of-all-supported-tags
 
 */
 
-var company_email_re_str=this.mVariables[0];
+//var company_email_re_str=this.mVariables[0];
+var company_email_re_str="/@myoffice.team|@collabio.team/";
+
 //var company_email_re= new RegExp(company_email_re_str);
 let rec_name = this.mQuicktext.process_to();
 let to_qty=rec_name['email'].length;
